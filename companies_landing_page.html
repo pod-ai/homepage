@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Pod - Centralised Platform For All Recruitments Needs of Companies / Colleges / Corporates | CALYXPOD</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+        <meta
+            name="description"
+            content="Pod brings together the Students of an Educational / Professional Institute on a common platform for them to be
+            able to participate &amp; benefit in all careers related activities being organised by their respective Colleges / Institutes. "
+        />
+        <meta name="keywords" content="Pod,Placement,Jobs,Internships,College,Students,Careers,Campus,Companies,Trainings" />
+        <meta property="og:title" content="Pod" />
+       <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="./images/favicons/mstile-150x150.png" />
+        <link href="./fonts/icon.css" rel="stylesheet" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/vendor.d9d21aba.css" />
+        <link rel="stylesheet" href="./fontawesome/css/all.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+        <div class="body-container">
+            <div class="page-content" id="page-container" aria-hidden="false">
+                <div class="homepage ng-scope" ng-controller="MarcommPageCtrl">
+                    <div class="jumbotron" id="gototop">
+                        <div class="clearfix">
+                            <div class="homepage-header" fixed-header="">
+                                <div class="inner header-container">
+                                    <a class="homepage-logo" ui-sref="root" href="./companies_landing_page.html"> <img alt="pod logo" src="./images/new_calyx_logo.png" /> </a>
+                                </div>
+                            </div>
+                            <div class="clearfix hero-slider-container">
+                                <div class="slideshow">
+                                    <div class="flexslider-container" slide="s in heroSlides track by s.id" slideshowspeed="1000" pauseonhover="true">
+                                        <div class="flexslider">
+                                            <ul class="slides">
+                                                <li class="text-left hero-slider-template ng-scope flex-active-slide" touch="true" data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2">
+                                                    <h1 class="jumbotron-title ng-binding" data-ng-bind-html="s.heading">Make Recruitment Your Advantage. <br /></h1>
+                                                    <h2 class="jumbotron-heading-second ng-binding" data-ng-bind-html="s.heading2">Simplify the Evolving, Fast Moving, Multi-Faceted Recruitments.</h2>
+                                                    <ul>
+                                                        <!-- ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Be Efficient &amp; Effective. Automate Mundane Work. Focus on Important Things.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Identify Your Valuable Partners. The Right Talent. Move Fast.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Gain An Edge Over Your Competition.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                    </ul>
+                                                    <!--<p   ng-repeat="text in s.subheading">{{text}}</p>-->
+                                                </li>
+                                                <li class="text-left hero-slider-template ng-scope" touch="true" data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1">
+                                                    <h1 class="jumbotron-title ng-binding" data-ng-bind-html="s.heading">Recruit The Collaborative Way.<br /></h1>
+                                                    <h2 class="jumbotron-heading-second ng-binding" data-ng-bind-html="s.heading2">Continuously Evolve Partnerships &amp; Measure Success.</h2>
+                                                    <ul>
+                                                        <!-- ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Your Entire Team. Decision Makers. Recruiters. Interviewers. Partners. Vendors.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Effective Communication &amp; Collaboration with All StakeHolders.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Grow Partnerships. Single Goal. Your Success.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                    </ul>
+                                                    <!--<p   ng-repeat="text in s.subheading">{{text}}</p>-->
+                                                </li>
+                                                <li class="text-left hero-slider-template ng-scope" touch="true" data-thumb-alt="" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1">
+                                                    <h1 class="jumbotron-title ng-binding" data-ng-bind-html="s.heading">Recruit The Intelligent Way.<br /></h1>
+                                                    <h2 class="jumbotron-heading-second ng-binding" data-ng-bind-html="s.heading2">Get Wiser Every Time. With Every Experience.</h2>
+                                                    <ul>
+                                                        <!-- ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Focus on The Right Candidates. The Right Partners. The Right Team Members.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Bring Proven Data Driven &amp; Automation Methodologies to Your Team.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                        <li class="js-li ng-scope show" ng-repeat="text in s.subheading"><p class="ng-binding">Sign In to Advanced Analytics and Artificial Intelligence.</p></li>
+                                                        <!-- end ngRepeat: text in s.subheading -->
+                                                    </ul>
+                                                    <!--<p   ng-repeat="text in s.subheading">{{text}}</p>-->
+                                                </li>
+                                            </ul>
+                                            <ol class="flex-control-nav flex-control-paging">
+                                                <li><a onclick="currentSlide(1)" href="#" class="dot flex-active">1</a></li>
+                                                <li><a onclick="currentSlide(2)" href="#" class="dot">2</a></li>
+                                                <li><a onclick="currentSlide(3)" href="#" class="dot">3</a></li>
+                                            </ol>
+                                            <ul class="flex-direction-nav">
+                                                <li class="flex-nav-prev"><a class="flex-prev" href="#" onclick="plusSlides(-1)">Previous</a></li>
+                                                <li class="flex-nav-next"><a class="flex-next" href="#" onclick="plusSlides(1)">Next</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--<jk-carousel data="heroSlides"-->
+                                <!--item-template-url="sliderTemplate"-->
+                                <!--max-width="9999"-->
+                                <!--max-height="9999"-->
+                                <!--auto-slide="true" auto-slide-time="5000">-->
+                                <!--</jk-carousel>-->
+                                <!--<div class="jumbotron-button-row text-center" >-->
+                                <!--<a href="#contactus" class="dashboard-link big-button js-scroll">Request a Demo</a>-->
+                                <!--</div>-->
+                                <!--<div class="scroller-link text-center">-->
+                                <!--<a href="#features" class="scroll-link js-scroll"><span></span>&nbsp;</a>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <section id="features" class="features-boxes-section">
+                        <h2 class="features-heading">
+                            One Centralised Platform. All Recruitments.
+                            <!--<br />-->
+                            <!--Campus Placements, Walk-Ins and Laterals.-->
+                        </h2>
+                        <ul class="features-list-ordered">
+                            <li class="featured-item">
+                                <i class="material-icons">school</i>
+                                <h4>Campus Drives</h4>
+                                <p>Recruit Them Young.</p>
+                                <p>Bigger Outreach. Screen Early.</p>
+                            </li>
+                            <li class="featured-item">
+                                <!--<i class="material-icons">supervisor_account</i>-->
+                                <i class="material-icons">people</i>
+                                <h4>Lateral Hires</h4>
+                                <p>Manage Pipeline.</p>
+                                <p>Collaborate with Consultants.</p>
+                            </li>
+                            <li class="featured-item">
+                                <i class="material-icons">directions_walk</i>
+                                <h4>Walk-In Drives</h4>
+                                <p>Streamlined. No Rush.</p>
+                                <p>Right Decisions. Timely Actions.</p>
+                            </li>
+                            <!--<li class="featured-item">-->
+                            <!--&lt;!&ndash;<i class="material-icons">people</i>&ndash;&gt;-->
+                            <!--<i class="material-icons">wc</i>-->
+                            <!--<h4>Partners</h4>-->
+                            <!--<p>Colleges. Consultants. Assessments. </p>-->
+                            <!--<p>Communication. Scheduling. Team Work.</p>-->
+                            <!--</li>-->
+                            <!--<li class="featured-item">-->
+                            <!--<i class="material-icons">device_hub</i>-->
+                            <!--<h4>Team Collaboration</h4>-->
+                            <!--<p>Management. Recruiters. Interviewers.</p>-->
+                            <!--<p>Transparent. Feedbacks. Communication. Decision-Making.</p>-->
+                            <!--</li>-->
+                        </ul>
+                        <div class="features-list-ordered layout-sm-column layout-align-center-center layout-row">
+                            <li class="featured-item flex">
+                                <!--<i class="material-icons">people</i>-->
+                                <i class="material-icons">wc</i>
+                                <h4>Partners</h4>
+                                <p>Colleges. Consultants. Assessments.</p>
+                                <p>Communication. Scheduling. Team Work.</p>
+                            </li>
+                            <li class="featured-item flex">
+                                <i class="material-icons">device_hub</i>
+                                <h4>Team Collaboration</h4>
+                                <p>Management. Recruiters. Interviewers.</p>
+                                <p>Transparent. Feedbacks. Decision-Making.</p>
+                            </li>
+                        </div>
+                    </section>
+                    <div class="md-padding text-center cyan">
+                        <p class="feature-summary no-margin">
+                            No More Adhoc Ness. Tame the Chaos of Hiring. <br class="show-mobile" />Be Awesomely Efficient &amp; Effective. <br class="hide-mobile" />
+                            <span class="hide-mobile">Great People. Great Team. Great Companies.</span>
+                        </p>
+                    </div>
+                    <section class="features-slider-section"></section>
+                    <section class="timeline">
+                        <div class="homepage-container">
+                            <div class="hgroup hgroup-sm timeline-header">
+                                <h3 class="text-center small-area-text">Features Simplifying Recruitment</h3>
+                             </div>
+                        </div>
+                        <div id="cd-timeline" timeline="">
+                            <i class="start timeline-circle cd-timeline-img cyan"></i> <span class="filler"></span>
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-content">
+                                    <div class="cd-timeline-img cyan"></div>
+                                    <h2>Planning</h2>
+                                    <ul>
+                                        <li><span>Define Job Positions &amp; Number of Openings</span></li>
+                                        <li><span>Set Goals, Targets &amp; Assign Responsibilities</span></li>
+                                        <li><span>Plan Recruitment Drives - Campuses, Laterals, &amp; Walk-Ins</span></li>
+                                        <li><span>Measure Progress &amp; Success. Adjust Plans</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-content">
+                                    <div class="cd-timeline-img cyan"></div>
+                                    <h2>Sourcing &amp; Screening</h2>
+                                    <ul>
+                                        <li><span>Expand Reach. Engage Partners - Colleges, Consultants</span></li>
+                                        <li><span>Broadcast to Job Boards. Bulk Uploads by Self</span></li>
+                                        <li><span>Standardised Candidate Profiles &amp; Details</span></li>
+                                        <li><span>Spot Talent. Advanced Filtering &amp; Searching</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-content">
+                                    <div class="cd-timeline-img cyan"></div>
+                                    <h2>Interviewing</h2>
+                                    <ul>
+                                        <li><span>Structure Your Specific Rounds</span></li>
+                                        <li><span>Customise &amp; Standardise Feedback Scorecards</span></li>
+                                        <li><span>Schedule Interviews - Calendar Events / Notifications</span></li>
+                                        <li><span>Transparent. Live Interviewing. Structured Feedbacks</span></li>
+                                        <li><span>Automated Updates to Partners / Candidates</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-content">
+                                    <div class="cd-timeline-img cyan"></div>
+                                    <h2>Making Right Decisions</h2>
+                                    <ul>
+                                        <li><span>Candidate Timelines. All Details at One Place</span></li>
+                                        <li><span>Interview Feedbacks. Data Driven. Team Involvement</span></li>
+                                        <li><span>Deeper Insights. Easy Comparison. Right Evaluation</span></li>
+                                        <li><span>Publish Results. Manage Offers</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="timeline-end">
+                                <i class="end timeline-circle cd-timeline-img cyan"></i>
+                                <p>and more...</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="features-bottom" class="features-boxes-section timeline-connected">
+                        <ul class="features-list-ordered">
+                            <li class="featured-item">
+                                <i class="material-icons">settings</i>
+                                <h4>Configure Teams</h4>
+                                <p>Reflect Your Organisation Structure.</p>
+                            </li>
+                            <li class="featured-item">
+                                <i class="material-icons">security</i>
+                                <h4>Control Access / Permissions</h4>
+                                <p>Team Level. User Level. Position / Drive Level.</p>
+                            </li>
+                            <li class="featured-item">
+                                <i class="material-icons">chat_bubble</i>
+                                <h4>Streamline Communications</h4>
+                                <p>Team Members. Candidates. Partners.</p>
+                            </li>
+                            <li class="featured-item">
+                                <i class="material-icons">notifications_active</i>
+                                <h4>Notifications / Reminders</h4>
+                                <p>Smart. Web + Browser + Email. ToDos.</p>
+                            </li>
+                            <li class="featured-item">
+                                <i class="material-icons">event</i>
+                                <h4>Calendar Events</h4>
+                                <p>Scheduling. Reminders.</p>
+                            </li>
+                            <li class="featured-item">
+                                <i class="material-icons">live_help</i>
+                                <h4>Responsive Support.</h4>
+                                <p>Assistance For All Queries.</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <div data-main-footer="" show-marcomm-footer="true" class="ng-isolate-scope">
+                        <section class="marcomm-footer ng-scope" data-ng-if="showMarcommFooter">
+                            <div class="row header-container">
+                                <div class="col s12 no-padding">
+                                    <div class="links-container clearfix">
+                                        <div class="links links-talent pull-left">
+                                            <h3 class="title">Recruitment Solutions</h3>
+                                            <ul>
+                                                <li><a href="./#">Companies</a></li>
+                                                <li><a href="./index.html">Colleges and Universities</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="links links-talent pull-right">
+                                            <h3 class="title text-right">Resources</h3>
+                                            <ul class="justify-end">
+                                                <li><a href="https://calyxpod.com/pages/" target="_blank">Blogs</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <footer class="secondary-footer">
+                            <div class="row header-container">
+                                <div class="col s12 no-padding">
+                                    <div class="legal-nav layout-row">
+                                        <a class="brand flex" ui-sref="root" href="./companies_landing_page.html"> <img alt="calyxpod logo" src="./images/new_calyx_logo.png" /> </a>
+                                        <div class="social-links flex">
+                                            <a href="https://www.linkedin.com/company/calyxpod/" target="_blank"> <i class="fa fa-linkedin-square linkedin-icon" aria-hidden="true"></i> </a>
+                                            <a href="https://www.google.co.in/maps/place/861,+Udyog+Vihar,+Phase+V,+Sector+19,+Gurugram,+Haryana+122022/@28.503219,77.0838117,17z/data=!4m5!3m4!1s0x390d194472ba6b6d:0x78c3b6d78165513d!8m2!3d28.503219!4d77.0860004" target="_blank"> <i class="g-maps"></i> </a>
+                                        </div>
+                                        <ul class="layout-row flex">
+                                            <li class="flex"><a ui-sref="terms_conditions" target="_blank" href="./terms_and_conditions.html">Terms of Use</a></li>
+                                            <li class="flex"><a ui-sref="privacy_policy" target="_blank" href="./privacy_policy.html">Privacy Policy</a></li>
+                                            <li class="flex"><a ui-sref="technology_principles" target="_blank" href="./cookie_policy.html">Cookie Policy</a></li>
+                                        </ul>
+                                    </div>
+                                    <p class="copyright text-center ng-binding">
+                                        <b><span>POD</span></b
+                                        ><i class="material-icons">copyright</i> . &nbsp;&nbsp;All Rights Reserved.
+                                    </p>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
