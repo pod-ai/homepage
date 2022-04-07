@@ -21097,6 +21097,7 @@ md-toast ~ #toast-container.custom-toast-wrap {
     padding-left: 16px;
     padding-top: 0;
     border: none;
+    max-width: 265px;
 }
 .terms-left-nav > ul > li {
     font-family: var(--secondary-font);
