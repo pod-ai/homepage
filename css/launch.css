@@ -56,14 +56,14 @@ body {
     font-size: 18px;
     line-height: 22px;
     margin: 0 0 8px 0;
-    font-weight: 600;
+    font-weight: 500;
     opacity: 0.6;
 }
 
 .launch-time {
     font-size: 20px;
     line-height: 24px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 0 0 8px 0;
 }
 
@@ -71,7 +71,7 @@ body {
     font-size: 18px;
     margin: 0;
     opacity: 0.6;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24px;
 }
 
