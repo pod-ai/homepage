@@ -1,25 +1,13 @@
 @font-face {
     font-family: Roboto;
-    src: url(../fonts/roboto/Roboto-Bold.woff) format('woff');
+    src: url(../fonts/RedHatDisplay-Bold.ttf) format('ttf');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: Roboto;
-    src: url(../fonts/roboto/Roboto-Light.woff) format('woff');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/roboto/Roboto-Medium.woff) format('woff');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/roboto/Roboto-Regular.woff) format('woff');
-    font-weight: 400;
+    src: url(../fonts/RedHatDisplay-SemiBold.ttf) format('ttf');
+    font-weight: 600;
     font-style: normal;
 }
 html {
